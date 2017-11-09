@@ -1,4 +1,4 @@
-from keras.datasets import mnist
+from keras.datasets import cifar10
 from keras.layers import Input, Dense, Reshape, Flatten, Dropout
 from keras.layers import BatchNormalization, Activation, ZeroPadding2D
 from keras.layers.advanced_activations import LeakyReLU
